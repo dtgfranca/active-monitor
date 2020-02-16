@@ -4,4 +4,4 @@ node_js:
 install:
 - rm -rf node_modules
 - npm install ws
-script: echo "teste"  
+script: node  ./screen.js  
