@@ -3,5 +3,5 @@ node_js:
   - 10
 install:
 - rm -rf node_modules
-- npm install
+- npm install ws
 script: node screen.js  
