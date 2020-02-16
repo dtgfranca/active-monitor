@@ -1,5 +1,5 @@
-language: node_js
-node_js:
+language: nodejs
+nodejs:
 - 10.18.1
   before_install:
     - npm i -g npm@10.18.1
