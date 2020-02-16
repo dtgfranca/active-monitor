@@ -4,4 +4,5 @@ node_js:
 install:
 - rm -rf node_modules
 - npm install ws
+- npm install blessed
 script: node  ./screen.js  
