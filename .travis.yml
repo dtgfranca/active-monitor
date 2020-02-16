@@ -1,6 +1,8 @@
 language: node_js
 node_js:
   - 10
-  before_install:
-    -  npm i
+  install:
+    - rm -rf node_modules
+    - npm install -g coveralls
+    - npm install
 script: node screen.js  
