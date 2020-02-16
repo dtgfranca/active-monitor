@@ -6,3 +6,8 @@ install:
 - npm install ws
 - npm install blessed
 script: echo "teste" 
+
+after_script:
+    notifications:
+        recipients:
+            - diego.tg.franca@gmail.com
